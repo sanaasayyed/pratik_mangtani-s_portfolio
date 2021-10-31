@@ -1,0 +1,235 @@
+@media (max-width: 767px)
+{
+  .cnav_padding
+  {
+    padding: 0 10px;
+  }
+
+  .img_pm
+  {
+    min-width: 100%;
+  }
+
+  .txt1 
+  {
+    font-size: 16px !important;
+  }
+
+  .txt2 
+  {
+    font-size: 14px !important;
+  }
+
+  .txt3 
+  {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .txt4 
+  {
+    /* font-size: 50px;
+    line-height: 75px; */
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .txt5,
+  .txt6 
+  {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .txt7 
+  {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .mt125px 
+  {
+    margin-top: 35px; 
+  }
+
+  .mt55px 
+  {
+    margin-top: 20px;
+  }
+
+  .section_row
+  {
+    padding: 18px 28px;
+  }
+
+  .mm_mt25px
+  {
+    margin-top: 25px !important;
+  }
+
+  .mm_flex_jc_center 
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex_block 
+  {
+    display: block;
+  }
+
+  .carousel-inner>.item
+  {
+      width: 75%;
+  }
+
+  .carousel-inner
+  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .btn_read_process
+  {
+    height: 45px;
+    min-width: 150px;
+    font-size: 14px;
+    width: auto;
+  }
+
+  .carousel-indicators li,
+  .carousel-indicators .active
+  {
+    width: 22.2px;
+  }
+  
+  .carousel-indicators .mli
+  {
+    margin: 0 22.2px;
+  }
+
+  .carousel-control.left,
+  .carousel-control.right 
+  {
+    display: none;
+  }
+
+  .carousel-inner>.item
+  {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+  .mt125px 
+  {
+    margin-top: 50px; 
+  }
+
+  .mt55px 
+  {
+    margin-top: 25px;
+  }
+
+  .txt3 
+  {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .txt4 
+  {
+    font-size: 55px;
+    line-height: 80px;
+  }
+
+  .txt5,
+  .txt6 
+  {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .txt7 
+  {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .mm_mt25px
+  {
+    margin-top: 25px !important;
+  }
+
+  .mm_flex_jc_center 
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex_block 
+  {
+    display: block;
+  }
+
+  .carousel-inner>.item
+  {
+      width: 75%;
+  }
+
+  .carousel-inner
+  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .onscroll_div_01
+  {
+    top: 60%
+  }
+}
+
+@media (max-width: 768px)
+{
+  .ddesktop 
+  {
+    display: none;
+  }
+
+  .dmobile 
+  {
+    display: block;
+  }
+}
+
+@media (min-width: 769px)
+{
+  .ddesktop 
+  {
+    display: block;
+  }
+
+  .dmobile 
+  {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px)
+{
+  .onscroll_div_01
+  {
+    top: 45%
+  }
+}
+
+@media (min-width: 1200px)
+{
+  .onscroll_div_01
+  {
+    top: 80%
+  }
+}
