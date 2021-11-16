@@ -218,6 +218,19 @@
   }
 }
 
+@media (max-width: 1023px)
+{
+  .ci_01 
+  {
+    height: 25vh;
+  }
+
+  .ci_02 
+  {
+    height: 15vh;
+  }
+}
+
 @media (min-width: 1024px)
 {
   .onscroll_div_01
@@ -231,5 +244,15 @@
   .onscroll_div_01
   {
     top: 80%
+  }
+
+  .ci_01 
+  {
+    height: 55vh;
+  }
+
+  .ci_02 
+  {
+    height: 60vh;
   }
 }
