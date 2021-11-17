@@ -5000,7 +5000,8 @@ body
 
 .img_pm 
 {
-  max-width: 75%;
+  /* max-width: 75%; */
+  max-width: 100%;
 }
 
 .onscroll_outer_div 
@@ -5118,7 +5119,8 @@ html
   scroll-behavior:smooth
 }
 
-.navbar_01
+.navbar_01,
+.cnavbar_01
 {
   display: none;
 }
@@ -5127,3 +5129,30 @@ html
 {
   height: 68vh
 } */
+
+.introduction 
+{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.ci_01,
+.ci_02 
+{
+  text-align: -webkit-center;
+}
+
+.navbar-nav>li.active>a
+{
+  color: #fff !important;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5
+{
+  scroll-margin: 15rem;
+}

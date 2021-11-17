@@ -57,19 +57,19 @@
     </script>
 
     <!-- <script>
-      $(function() {
-          $('a[href*=\\#]:not([href=\\#])').on('click', function() {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-              if (target.length) {
-                  $('html,body').animate({
-                      scrollTop: target.offset().top
-                  }, slow);
-                  return false;
-              }
-          });
-      });
-      </script> -->
+    $(function() {
+        $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top + 1000
+                }, slow);
+                return false;
+            }
+        });
+    });
+    </script> -->
     <!-- /add smooth scrolling when clicking any anchor link -->
 
     <script>
@@ -77,11 +77,11 @@
       $(window).scroll(function () {
         if ($(this).scrollTop() > 300) 
         { 
-          $('.navbar_01').fadeIn(500);
+          $('.cnavbar_01').fadeIn(500);
         } 
         else 
         {
-          $('.navbar_01').fadeOut(500);
+          $('.cnavbar_01').fadeOut(500);
         }
       });
     });
