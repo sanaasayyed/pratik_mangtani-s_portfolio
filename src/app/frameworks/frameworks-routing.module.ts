@@ -10,6 +10,10 @@ const routes: Routes = [
     path: 'cover-page',
     loadChildren: () => import('./cover-page/cover-page.module').then( m => m.CoverPagePageModule)
   },
+  {
+    path: 'hwp',
+    loadChildren: () => import('./hwp/hwp.module').then( m => m.HwpPageModule)
+  },
 ];
 
 @NgModule({
