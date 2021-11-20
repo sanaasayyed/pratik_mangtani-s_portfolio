@@ -220,7 +220,7 @@
 
 @media (max-width: 1023px)
 {
-  .ci_01 
+  /* .ci_01 
   {
     height: 25vh;
   }
@@ -228,7 +228,7 @@
   .ci_02 
   {
     height: 15vh;
-  }
+  } */
 }
 
 @media (min-width: 1024px)
@@ -246,7 +246,7 @@
     top: 80%
   }
 
-  .ci_01 
+  /* .ci_01 
   {
     height: 55vh;
   }
@@ -254,5 +254,15 @@
   .ci_02 
   {
     height: 60vh;
-  }
+  } */
+}
+
+.mb32px 
+{
+  margin-bottom: 32px;
+}
+
+.mb26px 
+{
+  margin-bottom: 26px;
 }
