@@ -5347,3 +5347,149 @@ html
 {
   position: relative !important;
 }
+
+.mt22px 
+{
+  margin-top: 22px;
+}
+
+.mt94px 
+{
+  margin-top: 94px;
+}
+
+.mb31px
+{
+  margin-bottom: 13px;
+}
+
+.mb90px 
+{
+  margin-bottom: 90px;
+}
+
+.mb60px 
+{
+  margin-bottom: 60px;
+}
+
+.mt72px 
+{
+  margin-top: 72px;
+}
+
+.mb36px 
+{
+  margin-bottom: 36px;
+}
+
+.mt15px 
+{
+  margin-top: 15px;
+}
+
+.mt82px 
+{
+  margin-top: 82px;
+}
+
+.btn_final_paper
+{
+  height: 63px;
+  border: 1px solid rgba(130, 124, 133, 1);
+  margin: 0;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  /* Grey */
+  color: #827C85;
+  border-radius: 35px;
+  background: transparent;
+  width: 100%;
+}
+
+.mt40px 
+{
+  margin-top: 40px;
+}
+
+.mt29px 
+{
+  margin-top: 29px;
+}
+
+.mt48px 
+{
+  margin-top: 48px;
+}
+
+.mb82px 
+{
+  margin-bottom: 82px;
+}
+
+.mt84px 
+{
+  margin-top: 84px;
+}
+
+.mb93px 
+{
+  margin-bottom: 93px;
+}
+
+.mb28px 
+{
+  margin-bottom: 28px;
+}
+
+.mt27px 
+{
+  margin-top: 27px;
+}
+
+.mb83px 
+{
+  margin-bottom: 83px;
+}
+
+.mt83px 
+{
+  margin-top: 83px;
+}
+
+.mb73px 
+{
+  margin-bottom: 73px;
+}
+
+.mt39px 
+{
+  margin-top: 39px;
+}
+
+.mt16px 
+{
+  margin-top: 16px;
+}
+
+.mb13px 
+{
+  margin-bottom: 13px;
+}
+
+.mb55px 
+{
+  margin-bottom: 55px;
+}
+
+.onscroll_div_03
+{
+   position: absolute;
+   top: 2700% !important;
+   width: 15%;
+}
