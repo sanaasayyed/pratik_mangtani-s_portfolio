@@ -14,6 +14,14 @@ const routes: Routes = [
     path: 'hwp',
     loadChildren: () => import('./hwp/hwp.module').then( m => m.HwpPageModule)
   },
+  {
+    path: 'creative',
+    loadChildren: () => import('./creative/creative.module').then( m => m.CreativePageModule)
+  },
+  {
+    path: 'voronav',
+    loadChildren: () => import('./voronav/voronav.module').then( m => m.VoronavPageModule)
+  },
 ];
 
 @NgModule({
