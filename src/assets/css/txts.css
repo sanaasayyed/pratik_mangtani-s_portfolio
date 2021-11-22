@@ -34,13 +34,36 @@
     font-style: normal;
     font-weight: normal;
     font-size: 70px;
-    line-height: 95px;    
+    line-height: 95px; 
+    /* White */    
+    color: #FFFFFF;    
+    opacity: 0.75;
+}
+
+.txt4a 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 1.14; 
     /* White */    
     color: #FFFFFF;    
     opacity: 0.75;
 }
 
 .txt5 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;    
+    /* Grey */    
+    color: #827C85;
+}
+
+.txt5a
 {
     font-family: Open Sans;
     font-style: normal;
