@@ -229,6 +229,20 @@
   {
     height: 15vh;
   } */
+
+  .btn_align_01
+  {
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1024px)
+{
+  .txt5a 
+  {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1024px)
@@ -236,6 +250,11 @@
   .onscroll_div_01
   {
     top: 45%
+  }
+
+  .btn_align_01
+  {
+    text-align: right;
   }
 }
 
