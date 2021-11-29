@@ -4893,6 +4893,15 @@ body
   margin-top: 22px;
   margin-bottom: 0;
 }
+
+.hr_05
+{
+  border: 1px solid #827C85;
+  transform: rotate(0.01deg);
+  /* margin-top: 46px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /* /hr */
 
 /* carousel  */
@@ -5213,7 +5222,7 @@ html
   border-radius: 35px;
   background: transparent;
   width: 100%;
-  margin: 64px 0 58px 0;
+  /* margin: 64px 0 58px 0; */
 }
 
 .mb23px 
@@ -5560,6 +5569,21 @@ h4
   margin: 0 0 20px 0;
 }
 
+.section_desc_04
+{
+  margin: 10px 0 35px 0;
+}
+
+.section_desc_05
+{
+  margin: 0 0 30px 0;
+}
+
+.section_desc_06
+{
+  margin: 0 0 40px 0;
+}
+
 .mt70px 
 {
   margin-top: 70px;
@@ -5573,6 +5597,11 @@ h4
 .img_mt_02 
 {
   margin-top: 50px;
+}
+
+.img_mt_03 
+{
+  margin: 70px 0 20px 0;
 }
 
 .cis_01 
@@ -5615,4 +5644,37 @@ h4
 .mw100p 
 {
   max-width: 100%;
+}
+
+.grid_imgs > [class*='col-'] 
+{
+  margin: 10px 0;
+  padding: 0;
+}
+
+.mt50px  
+{
+  margin-top: 50px;
+}
+
+.onscroll_div_05
+{
+  position: fixed;
+  top: 18%;
+  width: 15%;
+}
+
+.mtb50px 
+{
+  margin: 50px 0;
+}
+
+.mli_01 
+{
+  margin: 0 0 0 34.2px !important;
+}
+
+.img_mb_01 
+{
+  margin-bottom: 50px;
 }

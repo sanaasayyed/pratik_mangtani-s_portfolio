@@ -8,12 +8,15 @@ import { HwpPageRoutingModule } from './hwp-routing.module';
 
 import { HwpPage } from './hwp.page';
 
+import {SharedModule} from 'src/app/shared/shared.module';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HwpPageRoutingModule
+    HwpPageRoutingModule,
+    SharedModule
   ],
   declarations: [HwpPage]
 })

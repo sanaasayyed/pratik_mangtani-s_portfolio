@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'frameworks',
     loadChildren: () => import('./frameworks/frameworks.module').then( m => m.FrameworksModule)
+  },  
+  {
+    path: 'shared',
+    loadChildren: () => import('./shared/shared.module').then( m => m.SharedModule)
   },     
 ];
 
