@@ -16,6 +16,8 @@ import { environment } from '../environments/environment';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { StripeModule } from "stripe-angular"
 import { NgxCaptureModule } from 'ngx-capture';
+import { SharedModule } from './shared/shared.module';
+import { FrameworksModule } from './frameworks/frameworks.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -28,7 +30,9 @@ import { NgxCaptureModule } from 'ngx-capture';
     SocialLoginModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     StripeModule.forRoot("sk_test_51IRj1BGKvnjJ88wcKdzqQeXK9jSAsiRwxGw3GOBvuDSwgAXPqXk99gzD9KJnzQnuu2Nw4HOfCjCtIaa4JjALGNaa00eW4xCHjM"),
-    NgxCaptureModule     
+    NgxCaptureModule,
+    SharedModule,
+    FrameworksModule    
     ],
   providers: [
     StatusBar,

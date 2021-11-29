@@ -21,7 +21,8 @@ const routes: Routes = [
   {
     path: 'voronav',
     loadChildren: () => import('./voronav/voronav.module').then( m => m.VoronavPageModule)
-  },
+  }
+  
 ];
 
 @NgModule({
