@@ -8,12 +8,14 @@ import { VoronavPageRoutingModule } from './voronav-routing.module';
 
 import { VoronavPage } from './voronav.page';
 
+import {SharedModule} from 'src/app/shared/shared.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VoronavPageRoutingModule
+    VoronavPageRoutingModule,
+    SharedModule
   ],
   declarations: [VoronavPage]
 })
