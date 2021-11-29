@@ -5661,7 +5661,14 @@ h4
 {
   position: fixed;
   top: 18%;
-  width: 15%;
+  width: 10%;
+}
+
+.onscroll_div_06
+{
+  position: fixed;
+  top: 30%;
+  width: 10%;
 }
 
 .mtb50px 
@@ -5677,4 +5684,9 @@ h4
 .img_mb_01 
 {
   margin-bottom: 50px;
+}
+
+.justify 
+{
+  text-align: justify;
 }
