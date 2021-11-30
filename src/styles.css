@@ -5544,6 +5544,11 @@ h4
   margin: 20px 0;
 }
 
+.section_title_01a 
+{
+  margin: 0;
+}
+
 .section_title_02
 {
   margin: 0 0 20px 0;
@@ -5661,7 +5666,14 @@ h4
 {
   position: fixed;
   top: 18%;
-  width: 15%;
+  width: 10%;
+}
+
+.onscroll_div_06
+{
+  position: fixed;
+  top: 30%;
+  width: 10%;
 }
 
 .mtb50px 
@@ -5677,4 +5689,16 @@ h4
 .img_mb_01 
 {
   margin-bottom: 50px;
+}
+
+.justify 
+{
+  text-align: justify;
+}
+
+.dflexblock 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
