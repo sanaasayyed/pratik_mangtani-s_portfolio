@@ -5544,6 +5544,11 @@ h4
   margin: 20px 0;
 }
 
+.section_title_01a 
+{
+  margin: 0;
+}
+
 .section_title_02
 {
   margin: 0 0 20px 0;
@@ -5689,4 +5694,11 @@ h4
 .justify 
 {
   text-align: justify;
+}
+
+.dflexblock 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
