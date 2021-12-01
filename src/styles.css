@@ -4902,6 +4902,15 @@ body
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.hr_06
+{
+  border: 1px solid #827C85;
+  transform: rotate(0.01deg);
+  /* margin-top: 46px; */
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
 /* /hr */
 
 /* carousel  */
@@ -5701,4 +5710,9 @@ h4
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.pb55px 
+{
+  padding-bottom: 55px;
 }
