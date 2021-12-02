@@ -8,12 +8,14 @@ import { CoverPagePageRoutingModule } from './cover-page-routing.module';
 
 import { CoverPagePage } from './cover-page.page';
 
+import {SharedModule} from 'src/app/shared/shared.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CoverPagePageRoutingModule
+    CoverPagePageRoutingModule,
+    SharedModule
   ],
   declarations: [CoverPagePage]
 })

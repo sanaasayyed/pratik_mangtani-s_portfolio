@@ -26,7 +26,8 @@
     line-height: 40px;
   }
 
-  .txt4 
+  .txt4,
+  .txt4a 
   {
     /* font-size: 50px;
     line-height: 75px; */
@@ -41,7 +42,8 @@
     line-height: 24px;
   }
 
-  .txt7 
+  .txt7,
+  .txt7a 
   {
     font-size: 14px;
     line-height: 20px;
@@ -119,6 +121,11 @@
   {
     width: 100%;
   }
+
+  .dflexblock 
+  {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px)
@@ -139,7 +146,8 @@
     line-height: 50px;
   }
 
-  .txt4 
+  .txt4,
+  .txt4a 
   {
     font-size: 55px;
     line-height: 80px;
@@ -152,7 +160,8 @@
     line-height: 26px;
   }
 
-  .txt7 
+  .txt7,
+  .txt7a 
   {
     font-size: 14px;
     line-height: 20px;

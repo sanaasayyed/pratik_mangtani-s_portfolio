@@ -95,6 +95,18 @@
     color: #827C85;    
 }
 
+.txt7a 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;    
+    /* Grey */    
+    color: #FFFFFF;   
+    opacity: 0.75; 
+}
+
 .txt8 
 {
     font-family: Open Sans;
