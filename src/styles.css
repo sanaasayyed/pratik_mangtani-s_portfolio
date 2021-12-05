@@ -5013,7 +5013,9 @@ body
 
 .cnavtabs>li
 {
-  width: 25%;
+  /* width: 25%; */
+  width: 30%;
+  margin: 0 10px 0 0;
   text-align: center;
 }
 
@@ -5715,4 +5717,9 @@ h4
 .pb55px 
 {
   padding-bottom: 55px;
+}
+
+a 
+{
+  cursor: pointer !important;
 }
