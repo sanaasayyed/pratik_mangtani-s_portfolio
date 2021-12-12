@@ -5723,3 +5723,15 @@ a
 {
   cursor: pointer !important;
 }
+
+.onscroll_div_05
+{
+  position: fixed;
+  width: 15%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
