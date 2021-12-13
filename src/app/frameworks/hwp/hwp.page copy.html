@@ -1,273 +1,20 @@
 <!-- top navigation -->
-<div class="top_nav ml0">
-  <div class="nav_menu cnav_menu p20px mb0px tn_padding bg_black">
-    <nav class="">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 center_flex cnav_padding">
-          <div class="col-lg-8 col-md-6 col-sm-8 col-xs-8 p0 center_flex">
-            <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
-              <img src="assets/svgs/logo/pm.svg" alt="" class="img-responsive img_pm">
-            </div>
-
-            <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9 p0">
-              <h6 class="txt1"> pratik mangtani </h6>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-4 col-xs-4">
-
-            <!-- desktop -->
-            <ul class="nav nav-tabs cnavtabs ddesktop">
-              <li class="active">
-                <a class="txt2 tt_uppercase" data-toggle="tab" href="#">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a class="txt2 tt_uppercase" data-toggle="tab" href="#">
-                  ABOUT
-                </a>
-              </li>
-              <li>
-                <a class="txt2 tt_uppercase" data-toggle="tab" href="#">
-                  CREATIVE
-                </a>
-              </li>
-              <li>
-                <a class="txt2 tt_uppercase" data-toggle="tab" href="#">
-                  RESUME
-                </a>
-              </li>
-            </ul>
-            <!-- /desktop -->
-
-            <!-- mobile -->
-            <!-- hamburger -->
-            <nav class="mnav dmobile">
-              <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
-              <label class="m-menu__toggle m0px" for="menu">                    
-                <img src="https://humanwisdoms3.s3.eu-west-2.amazonaws.com/assets/svgs/icons/hamburger.svg" class="img-responsive" alt="">
-              </label>
-              <label class="m-menu__overlay" for="menu"></label>    
-              
-              <div class="m-menu">
-                <!-- <div class="m-menu__header">
-                  <div class="row">                    
-                    <div class="col-md-12 col-sm-12 col-xs-12 p0 center_flex">
-                      <div class="col-md-2 col-sm-3 col-xs-4">
-                        <img src="assets/svgs/logo/pm.svg" alt="" class="img-responsive img_pm">
-                      </div>
-          
-                      <div class="col-md-10 col-sm-9 col-xs-8 p0">
-                        <h6 class="txt1 tleft"> pratik mangtani </h6>
-                      </div>
-                    </div>                    
-                  </div>
-                </div> -->
-                <ul class="dh_ul">
-                  <li>
-                    <div class="row row_m01">
-                      <div class="col-md-12 col-sm-12 col-xs-12 p0 flex_ai">
-                        <div class="col-md-2 col-sm-2 col-xs-2">
-                          <img src="https://humanwisdoms3.s3.eu-west-2.amazonaws.com/assets/svgs/icons/dhamburger/01.svg" alt="" class="img-responsive">
-                        </div>
-                        <div class="col-md-10 col-sm-10 col-xs-10 p0">
-                          <h4 class="txt8 mtb0px tleft tt_uppercase">
-                            Home
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="row row_m01">
-                      <div class="col-md-12 col-sm-12 col-xs-12 p0 flex_ai">
-                        <div class="col-md-2 col-sm-2 col-xs-2">
-                          <img src="https://humanwisdoms3.s3.eu-west-2.amazonaws.com/assets/svgs/icons/dhamburger/01.svg" alt="" class="img-responsive">
-                        </div>
-                        <div class="col-md-10 col-sm-10 col-xs-10 p0">
-                          <h4 class="txt8 mtb0px tleft tt_uppercase">
-                            About
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="row row_m01">
-                      <div class="col-md-12 col-sm-12 col-xs-12 p0 flex_ai">
-                        <div class="col-md-2 col-sm-2 col-xs-2">
-                          <img src="https://humanwisdoms3.s3.eu-west-2.amazonaws.com/assets/svgs/icons/dhamburger/01.svg" alt="" class="img-responsive">
-                        </div>
-                        <div class="col-md-10 col-sm-10 col-xs-10 p0">
-                          <h4 class="txt8 mtb0px tleft tt_uppercase">
-                            Creative
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="row row_m01">
-                      <div class="col-md-12 col-sm-12 col-xs-12 p0 flex_ai">
-                        <div class="col-md-2 col-sm-2 col-xs-2">
-                          <img src="https://humanwisdoms3.s3.eu-west-2.amazonaws.com/assets/svgs/icons/dhamburger/01.svg" alt="" class="img-responsive">
-                        </div>
-                        <div class="col-md-10 col-sm-10 col-xs-10 p0">
-                          <h4 class="txt8 mtb0px tleft tt_uppercase">
-                            Resume
-                          </h4>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <div class="pagebreak"></div>
-                </ul>      
-              </div>              
-            </nav> 
-            <!-- /hamburger -->
-            <!-- /mobile -->
-
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-</div>
+<app-top-nav></app-top-nav>
 <!-- /top navigation -->
 
-<!-- onscroll div 01  -->
-<!-- <div class="row onscroll_outer_div">
-  <div class="col-md-2 col-sm-2 col-xs-12 p0 onscroll_inner_div">
-    <div class="col-md-2 col-sm-2 col-xs-2 onscroll_div_w01">
-      <a href="#section1">
-        <h4 class="txt5">
-          contact
-        </h4>
-      </a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 onscroll_div_w01">
-      <a href="#section2">
-        <h4 class="txt5">
-          creative
-        </h4>
-      </a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 onscroll_div_w01">
-      <a href="#about">
-        <h4 class="txt5">
-          about
-        </h4>
-      </a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 onscroll_div_w02">
-      <a href="#testimonials">
-        <h4 class="txt5">
-          testimonials
-        </h4>
-      </a>
-    </div>
-    <div class="col-md-2 col-sm-2 col-xs-2 onscroll_div_w01">
-      <a href="#work" class="active">
-        <h4 class="txt5">
-          work
-        </h4>
-      </a>
-    </div>
-  </div>
-</div> -->
-<!-- /onscroll div 01-->
-
 <!-- onscroll div 02 -->
-<nav class="navbar navbar-fixed-top cnavbar_01 prelativei">
-  <div class="container-fluid">
-    <div>
-      <div class="row flex_start w100p" >
-        <div class="col-md-2 col-sm-2 col-xs-12 onscroll_div_02">
-          <div class="collapse navbar-collapse onscroll_div_transform" id="myNavbar">
-            <ul class="nav navbar-nav webkit_inline show_nav">
-              <li>
-                <a href="#section1" class="txt5">
-                  takeaway
-                </a>
-              </li>
-              <li>
-                <a href="#section2" class="txt5">
-                  reports
-                </a>
-              </li>
-              <li>
-                <a href="#section3" class="txt5">
-                  development
-                </a>
-              </li>
-              <li>
-                <a href="#section4" class="txt5">
-                  solution
-                </a>
-              </li>
-              <li>
-                <a href="#section5" class="txt5">
-                  feedback
-                </a>
-              </li>
-              <li>
-                <a href="#section6" class="txt5">
-                  wireframes
-                </a>
-              </li>
-              <li>
-                <a href="#section7" class="txt5">
-                  sketches
-                </a>
-              </li>
-              <li>
-                <a href="#section8" class="txt5">
-                  comp analysis
-                </a>
-              </li>
-              <li>
-                <a href="#section9" class="txt5">
-                  insights
-                </a>
-              </li>
-              <li>
-                <a href="#section10" class="txt5">
-                  interview
-                </a>
-              </li>
-              <li>
-                <a href="#section11" class="txt5">
-                  problem
-                </a>
-              </li>
-              <li>
-                <a href="#section12" class="txt5">
-                  overview
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+<app-side-nav-b></app-side-nav-b>
 <!-- /onscroll div 02  -->
 
 <!-- page content -->
 <div class="right_col ml0 bg_purple" role="main">
   <!-- Class -->
-  <div class="cw100p cabsolutet">
+  <div class="cw100p">
     <div class="row">
       <div _ngcontent-ehe-c137="" class="col-md-12 col-sm-12 col-xs-12 center_flex">
         <div class="col-md-10 col-sm-9 col-xs-12 p0">
-          <div class="x_panel dflexblock_transcript">
-            <div class="x_content c_white fwunset pt0px mt0px">
+          <div class="x_panel p0">
+            <div class="x_content p0">
               <form>
 
                 <!-- carousel -->
@@ -281,7 +28,14 @@
                             <img src="assets/svgs/background/tiles/carousel/hwp/hwp_c01.svg" class="img-responsive">
                           </div>
                           <div class="item">
-                            <img src="assets/svgs/background/tiles/carousel/hwp/hwp_c02.svg" class="img-responsive">
+                            <!-- <img src="assets/svgs/background/tiles/carousel/hwp/hwp_c02.svg" class="img-responsive"> -->
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <video controls  class="mw100p" poster="assets/svgs/background/tiles/carousel/hwp/hwp_c02.svg" controlsList="nodownload">                                                
+                                  <source src="assets/videos/introduction_to_hwp.mp4" type="video/mp4">                                              
+                                </video>
+                              </div>
+                            </div>
                           </div>
                         </div>
                         <a class="left carousel-control" href="#carousel_01" role="button" data-slide="prev">
@@ -292,7 +46,7 @@
                         </a>
                         <ol class="carousel-indicators">
                           <li data-target="#carousel_01" data-slide-to="0" class="active"></li>
-                          <li data-target="#carousel_01" data-slide-to="1" class="mli"></li>
+                          <li data-target="#carousel_01" data-slide-to="1" class="mli_01"></li>
                         </ol>
                       </div>
                     </section>
@@ -301,7 +55,7 @@
                 </div>
                 <!-- /carousel -->
 
-                <div class="row center_flex">
+                <!-- <div class="row center_flex mtb50px">
                   <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12">
                     <a>
                       <button type="button" class="btn btn-default btn_hwp_link_website">
@@ -309,12 +63,12 @@
                       </button>
                     </a>
                   </div>
-                </div>
+                </div> -->
 
                 <!-- human wisdom program -->
-                <div class="row center_flex">
+                <div class="row center_flex section_title_01a">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt4">
+                    <h4 class="txt4a">
                       Human Wisdom Program 
                     </h4>
                   </div>
@@ -328,9 +82,9 @@
                   </div>
                 </div>
 
-                <div class="row center_flex mb32px">
+                <div class="row center_flex">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt6">
+                    <h4 class="txt6 section_desc_04">
                       An online course that provides a road map for everyone to explore and understand themselves more deeply.
                     </h4>
                   </div>
@@ -343,11 +97,11 @@
                         Roles and Responsibilities
                       </h4>
                       
-                      <h4 class="txt7">
+                      <h4 class="txt7 mb15px">
                         User Research: User Interviews, Competetive Analysis, Journey Mapping
                       </h4>
 
-                      <h4 class="txt7">
+                      <h4 class="txt7 mb15px">
                         UX Design: Sketches, Wireframes, High fidelity prototype.
                       </h4>
 
@@ -361,7 +115,7 @@
                         Project Context
                       </h4>
 
-                      <h4 class="txt7">
+                      <h4 class="txt7 mb15px">
                         Aug 2020 - Sept 2021
                       </h4>
 
@@ -389,7 +143,7 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -397,13 +151,13 @@
                 <div id="section12">
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Overview 
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row">
+                  <div class="row img_mtb_01">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center_flex">
                       <img src="assets/svgs/background/tiles/hwp/hwp_overview_01.svg" class="img-responsive">
                     </div>
@@ -411,11 +165,11 @@
 
                   <div class="row mt18px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7 mb26px">
+                      <h4 class="txt7 section_desc_03">
                         Dr Manoj Krishna is author of, “Understanding Me, Understanding You - an enquiry to be human, and Understanding and Managing Stress”. He aims  to scale the benefits of wisdom through a structured online application.
                       </h4>
 
-                      <h4 class="txt7 mb26px">
+                      <h4 class="txt7 section_desc_03">
                         The Human Wisdom Program (HWP) is an e learning platform that helps people discover themselves so they can be happy and live with a sense of peace.
                       </h4>
 
@@ -429,7 +183,7 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -437,7 +191,7 @@
                 <div id="section11">
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Problem 
                       </h4>
                     </div>
@@ -445,15 +199,15 @@
 
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7">
+                      <h4 class="txt7 section_desc_02">
                         Dr Manoj Krishna approached us with his book and some course slides on Articulate. The course revolved around,”Five Circles of Wisdom”. There was no structure to the learning material. Dr Krishna wanted a structured and interactive E-learning application that would guide users through the central concept of the five circles of wisdom. 
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row mt78px mb25px">
+                  <div class="row img_mt_02">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center_flex">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_problem_01.svg" class="img-responsive w100p">
+                      <img src="assets/svgs/background/tiles/hwp/hwp_problem_01.svg" class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -461,25 +215,25 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
                 <!-- design process -->
                 <div class="row center_flex">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt4">
+                    <h4 class="txt4a">
                       Design Process
                     </h4>
                   </div>
                 </div>
 
-                <div class="row center_flex mt30px mb10px">
+                <div class="row center_flex">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt7">
+                    <h4 class="txt7 section_desc_04">
                       I went through the course content on Articulate and read the book to better undertsand the requirements of the stakeholder. I interviewed the founder, Dr Manoj Krishna along with the Chief Technology Officer. Following are some questions that I prepared for the interview:
                     </h4>
-                    <h4 class="txt7">
+                    <h4 class="txt7 section_desc_03">
                       1. What is your vision behind the learning program?
                     </h4>
                     <h4 class="txt7">
@@ -488,16 +242,16 @@
                   </div>
                 </div>
 
-                <div class="row mb54px">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <img src="assets/svgs/background/tiles/hwp/hwp_design_process_01.svg" class="img-responsive w100p">
+                <div class="row img_mt_02">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center_flex">
+                    <img src="assets/svgs/background/tiles/hwp/hwp_design_process_01.svg" class="img-responsive">
                   </div>
                 </div>
                 <!-- /design process -->
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -505,28 +259,28 @@
                 <div id="section10">
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         User Interview
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row center_flex mt20px">
+                  <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7">
+                      <h4 class="txt7 section_desc_02">
                         The CTO and I interviewed Dr Manoj Krishna to better understand his vision of the learning application. These intervies gave me an idea of something I could work with for the User Experience
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row mt30px mb54px">
+                  <div class="row img_mt_02">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <img src="assets/svgs/background/tiles/hwp/hwp_user_interview_01.svg" class="img-responsive w100p">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px center_flex">
+                        <img src="assets/svgs/background/tiles/hwp/hwp_user_interview_01.svg" class="img-responsive">
                       </div>
 
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <img src="assets/svgs/background/tiles/hwp/hwp_user_interview_02.svg" class="img-responsive w100p">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px center_flex">
+                        <img src="assets/svgs/background/tiles/hwp/hwp_user_interview_02.svg" class="img-responsive">
                       </div>
                     </div>
                   </div>
@@ -535,7 +289,7 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -543,23 +297,23 @@
                 <div id="section9">
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Insights from Interviews
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row center_flex mt20px mb22px">
+                  <div class="row center_flex section_desc_02">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7">
+                      <h4 class="txt7 section_desc_02">
                         Based on user interviews, I decided to combine features of E-learning and streaming applications. This would wnable users to engage with the learning program, track their progress and the navigation experience would give them an experience of using a digital streaming service. 
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row mb32px">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_insights_interviews_01.svg" class="img-responsive w100p">
+                  <div class="row img_mt_02 center_flex">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                      <img src="assets/svgs/background/tiles/hwp/hwp_insights_interviews_01.svg" class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -567,7 +321,7 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -575,23 +329,24 @@
                 <div id="section8">
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Competitive Analysis
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row center_flex mt20px mb50px">
+                  <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7">
+                      <h4 class="txt7 section_desc_02">
                         I decided to  carry out competitive analysis with e-learning and streaming applications for inspiration for HWP.
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row mb46px">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_competitive_analysis_01.svg" class="img-responsive w100p">
+                  <div class="row img_mt_02 center_flex">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 center_flex">
+                      <!-- <img src="assets/svgs/background/tiles/hwp/hwp_competitive_analysis_01.svg" class="img-responsive"> -->
+                      <img src="assets/svgs/tiles/hwp_competitive_analysis_01.svg" class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -599,14 +354,14 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
                 <!-- features -->
                 <div class="row center_flex">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt4">
+                    <h4 class="txt4a">
                       Features
                     </h4>
                   </div>
@@ -614,15 +369,15 @@
 
                 <div class="row center_flex mt20px mb47px">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt7">
+                    <h4 class="txt7 section_desc_02">
                       Based on my research, I decided to design a dashboard that would cover the content. We divided the learning material into modules and sections. The dashboard would allow users to easily navigate from one module to another. 
                     </h4>
                   </div>
                 </div>
 
-                <div class="row mb74px">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center_flex">
-                    <img src="assets/svgs/background/tiles/hwp/hwp_features_01.svg" class="img-responsive">
+                <div class="row img_mtb_01 center_flex">
+                  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 center_flex">
+                    <img src="assets/svgs/tiles/hwp_features_01.svg" class="img-responsive">
                   </div>
                 </div>
 
@@ -634,16 +389,16 @@
                   </div>
                 </div>
 
-                <div class="row mb32px">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center_flex">
-                    <img src="assets/svgs/background/tiles/hwp/hwp_features_02.svg" class="img-responsive">
+                <div class="row img_mt_02 center_flex">
+                  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 center_flex">
+                    <img src="assets/svgs/tiles/hwp_features_02.svg" class="img-responsive">
                   </div>
                 </div>
                 <!-- /features -->
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -651,24 +406,30 @@
                 <div id="section7">
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Sketches
                       </h4>
                     </div>
                   </div>
 
                   <!-- carousel -->
-                  <div class="row">
+                  <div class="row img_mtb_01">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                       <section class="carousel-fixed-height">
                         <div id="carousel_02" class="carousel slide" data-ride="carousel" data-interval="3000000">
                           <div class="carousel-inner ci_02" role="listbox">
                             <div class="item active">
-                              <img src="assets/svgs/background/tiles/carousel/hwp/hwp_sketches_01.svg" class="img-responsive">
+                              <img src="assets/svgs/tiles/sketches_01.svg" class="img-responsive">
                             </div>
                             <div class="item">
-                              <img src="assets/svgs/background/tiles/carousel/hwp/hwp_sketches_02.svg" class="img-responsive">
+                              <img src="assets/svgs/tiles/sketches_02.svg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                              <img src="assets/svgs/tiles/sketches_03.svg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                              <img src="assets/svgs/tiles/sketches_04.svg" class="img-responsive">
                             </div>
                           </div>
                           <a class="left carousel-control" href="#carousel_02" role="button" data-slide="prev">
@@ -680,6 +441,8 @@
                           <ol class="carousel-indicators">
                             <li data-target="#carousel_02" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel_02" data-slide-to="1" class="mli"></li>
+                            <li data-target="#carousel_02" data-slide-to="2" class=""></li>
+                            <li data-target="#carousel_02" data-slide-to="3" class="mli_01"></li>
                           </ol>
                         </div>
                       </section>
@@ -692,7 +455,7 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -700,7 +463,7 @@
                 <div id="section6">
                   <div class="row center_flex mb30px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Wireframes
                       </h4>
                     </div>
@@ -712,12 +475,15 @@
 
                       <section class="carousel-fixed-height">
                         <div id="carousel_03" class="carousel slide" data-ride="carousel" data-interval="3000000">
-                          <div class="carousel-inner ci_02 mb43px" role="listbox">
+                          <div class="carousel-inner ci_02" role="listbox">
                             <div class="item active">
-                              <img src="assets/svgs/background/tiles/carousel/hwp/hwp_wireframes_01.svg" class="img-responsive">
+                              <img src="assets/svgs/tiles/wireframes_01.svg" class="img-responsive">
                             </div>
                             <div class="item">
-                              <img src="assets/svgs/background/tiles/carousel/hwp/hwp_wireframes_02.svg" class="img-responsive">
+                              <img src="assets/svgs/tiles/wireframes_02.svg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                              <img src="assets/svgs/tiles/wireframes_03.svg" class="img-responsive">
                             </div>
                           </div>
                           <a class="left carousel-control" href="#carousel_03" role="button" data-slide="prev">
@@ -729,6 +495,7 @@
                           <ol class="carousel-indicators">
                             <li data-target="#carousel_03" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel_03" data-slide-to="1" class="mli"></li>
+                            <li data-target="#carousel_03" data-slide-to="2" class=""></li>
                           </ol>
                         </div>
                       </section>
@@ -741,52 +508,51 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
-
 
                 <!-- feedback -->
                 <div id="section5">
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Feedback
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row center_flex mt77px mb149px">
+                  <div class="row center_flex img_mt_02">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb42px">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img_mb_01 center_flex">
                           <img src="assets/svgs/background/tiles/hwp/hwp_feedback_01.svg" class="img-responsive w100p">
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <h4 class="txt7">
+                          <h4 class="txt7 justify">
                             For progress tracking, we introduced a progress bar at the top. The development of this tracker was challenging because our database did not accommodate sessions to manage page-wise progress. Implementation of the this feature was time-consuming because a collection of pages i.e sessions had to stored in the database.
                           </h4>
                         </div>
                       </div>
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <img src="assets/svgs/background/tiles/hwp/hwp_feedback_02.svg" class="img-responsive w100p">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px center_flex">
+                        <img src="assets/svgs/background/tiles/hwp/hwp_feedback_02.svg" class="img-responsive">
                       </div>
                     </div>
                   </div>
 
-                  <div class="row center_flex mb149px">
+                  <div class="row center_flex img_mt_02">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <img src="assets/svgs/background/tiles/hwp/hwp_feedback_03.svg" class="img-responsive w100p">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px center_flex">
+                        <img src="assets/svgs/background/tiles/hwp/hwp_feedback_03.svg" class="img-responsive">
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb42px">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img_mb_01 center_flex">
                           <img src="assets/svgs/background/tiles/hwp/hwp_feedback_04.svg" class="img-responsive w100p">
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <h4 class="txt7">
+                          <h4 class="txt7 justify">
                             We introduced a share icon on each screen.  Shared screens can be viewed for free by recepients. We decided to have this feature to raise awareness about the program.  This feature led us to define access rules for subscribers and non subscribers.
-                            <br>
+                            <br><br>
                             Note: This is covered in the marketing case study of HWP.
                           </h4>
                         </div>
@@ -794,20 +560,23 @@
                     </div>
                   </div>
 
-                  <div class="row center_flex mb94px">
+                  <div class="row center_flex img_mt_02">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb42px">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img_mb_01 center_flex">
                           <img src="assets/svgs/background/tiles/hwp/hwp_feedback_05.svg" class="img-responsive w100p">
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <h4 class="txt7">
+                          <h4 class="txt7 justify">
                             We introduced an introduction module for users to get acquainted with the application. This module included different features of the application and guidelines for users to enagage with HWP. 
                           </h4>
                         </div>
                       </div>
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px">
-                        <img src="assets/svgs/background/tiles/hwp/hwp_feedback_06.svg" class="img-responsive w100p">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb10px center_flex">
+                        <!-- <img src="assets/svgs/background/tiles/hwp/hwp_feedback_06.svg" class="img-responsive"> -->
+                        <video controls  class="mw100p" poster="assets/svgs/background/tiles/hwp/hwp_feedback_06.svg" controlsList="nodownload">                                                
+                          <source src="assets/videos/user_guide.mov" type="video/mp4">                                              
+                        </video>
                       </div>
                     </div>
                   </div>
@@ -816,23 +585,36 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
                 <!-- solution -->
                 <div id="section4">
-                  <div class="row center_flex">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
-                        Solution
-                      </h4>
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 p0 dflexblock">
+                      <div class="col-lg-9 col-md-9 col-sm-7 col-xs-12">
+                        <h4 class="txt4a">
+                          Solution
+                        </h4>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-5 col-xs-12 tright">
+                        <a href="https://humanwisdom.me/course/#/adults/adult-dashboard">
+                          <button type="button" class="btn btn-default btn_hwp_link_website">
+                            Link to the website
+                          </button>
+                        </a>
+                      </div>
                     </div>
                   </div>
 
-                  <div class="row mt20px mb43px">
+                  <div class="row img_mt_02">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center_flex">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_solution_01.svg" class="img-responsive">
+                      <!-- <img src="assets/svgs/background/tiles/hwp/hwp_solution_01.svg" class="img-responsive"> -->
+                      <video controls  class="mw100p" poster="assets/svgs/background/tiles/hwp/hwp_solution_01.svg" controlsList="nodownload">                                                
+                        <!-- <source src="assets/videos/app_guide.mp4" type="video/mp4"> -->
+                        <source src="https://humanwisdoms3.s3.eu-west-2.amazonaws.com/program_guide/videos/1.1.mp4" type="video/mp4"> 
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -840,7 +622,7 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -848,7 +630,7 @@
                 <div id="section3">
                   <div class="row center_flex mb68px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Development
                       </h4>
                     </div>
@@ -862,21 +644,21 @@
                     </div>
                   </div>
 
-                  <div class="row center_flex mb42px">
+                  <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7">
+                      <h4 class="txt7 section_desc_02">
                         Based on our research, list of features and dashboard design, we designed a database. This database was implemented in MySql. We implemented our own Learning Management System for the Human Wisdom Program. This was an iterative process because we had to ensure that the design was scalable and avoided redundant storage of data.
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row mb78px">
+                  <div class="row img_mtb_01 center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_development_01.png" class="img-responsive w100p">
+                      <img src="assets/svgs/tiles/hwp_development_01.svg" class="img-responsive w100p">
                     </div>
                   </div>
 
-                  <div class="row center_flex mb20px">
+                  <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <h4 class="txt6">
                         Admin Module
@@ -886,15 +668,18 @@
 
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7">
+                      <h4 class="txt7 section_desc_02">
                         The application has many stakeholders: Super admin, admin, moderator of the discussion forum, content manager, program affiliate. I designed a developed screens for the admin module to manage data on the course. We prepared screens for CRUD operations, reports, pricing, approval of posts. Access to screens based on roles was controlled using Typescript. 
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_development_02.svg" class="img-responsive w100p">
+                  <div class="row img_mt_02 center_flex">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                      <!-- <img src="assets/svgs/background/tiles/hwp/hwp_development_02.svg" class="img-responsive w100p"> -->
+                      <video controls  class="mw100p" poster="assets/svgs/background/tiles/hwp/hwp_development_02.svg" controlsList="nodownload">                                                
+                        <source src="assets/videos/admin_module.mov" type="video/mp4">                                              
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -902,7 +687,7 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -910,21 +695,21 @@
                 <div id="section2">
                   <div class="row center_flex mb68px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Reports
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row center_flex">
+                  <div class="row center_flex mt50px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt6">
+                      <h4 class="txt6 section_desc_03">
                         Feedback survey report
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row center_flex mb116px">
+                  <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <h4 class="txt7">
                         We desgined a feedback survey for users after each module. Results of the feedback survey would help us improve the quality of content. I designed the feedback survey report for the admin module based on selections of users. 
@@ -932,9 +717,9 @@
                     </div>
                   </div>
 
-                  <div class="row mb198px">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_reports_01.svg" class="img-responsive w100p">
+                  <div class="row center_flex">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                      <img src="assets/svgs/tiles/hwp_reports_01.svg" class="img-responsive">
                     </div>
                   </div>
 
@@ -948,15 +733,15 @@
 
                   <div class="row center_flex">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt7">
+                      <h4 class="txt7 section_desc_02">
                         The wisdom survey is available for users on the learning application. I designed a report to analyze results of wisdom surveys to gauge the impact of the Human Wisdom Program on people.
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row mt149px">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <img src="assets/svgs/background/tiles/hwp/hwp_reports_02.svg" class="img-responsive w100p">
+                  <div class="row center_flex">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 center_flex">
+                      <img src="assets/svgs/tiles/hwp_reports_02.svg" class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -964,21 +749,21 @@
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_06">
                   </div>
                 </div>
 
                 <!-- takeaway -->
                 <div id="section1">
-                  <div class="row center_flex mb37px">
+                  <div class="row center_flex mb30px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h4 class="txt4">
+                      <h4 class="txt4a">
                         Takeaway
                       </h4>
                     </div>
                   </div>
 
-                  <div class="row center_flex">
+                  <div class="row center_flex mb15px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <h4 class="txt6">
                         Tradeoffs between technical requirements, design decisions and financial resources.
@@ -986,7 +771,7 @@
                     </div>
                   </div>
 
-                  <div class="row center_flex mb37px">
+                  <div class="row center_flex section_desc_05">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <h4 class="txt7">
                         We had limited financial resources. I was the lead UX Engineer and every design decision had to go through multiple discussions regarding feasibility of implementation. This was an immense learning experience for me. II dealt with multiple iterations of features that involved changes to optimize the database, webservices and software.
@@ -994,7 +779,7 @@
                     </div>
                   </div>
 
-                  <div class="row center_flex">
+                  <div class="row center_flex mb15px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <h4 class="txt6">
                         Strategic Design
@@ -1002,7 +787,7 @@
                     </div>
                   </div>
 
-                  <div class="row center_flex mb37px">
+                  <div class="row center_flex section_desc_05">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <h4 class="txt7">
                         My background in Computer Science played a major role in taking design decisions. I was responsible for designing screens where I considered the feasibility of development. I collaborated with the product manager to estimate time and efforts required to implement designs. These designs were then handed over to our visual designer.
@@ -1010,7 +795,7 @@
                     </div>
                   </div>
 
-                  <div class="row center_flex">
+                  <div class="row center_flex mb15px">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <h4 class="txt6">
                         Comfort with ambiguity
@@ -1028,10 +813,16 @@
                 </div>
                 <!-- /takeaway -->
 
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <hr class="hr_03">
+                  </div>
+                </div>
+
                 <!-- in the press -->
                 <div class="row center_flex mb31px">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt4">
+                    <h4 class="txt4a">
                       In the Press
                     </h4>
                   </div>
@@ -1039,16 +830,18 @@
 
                 <div class="row center_flex">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 class="txt7 underline">
-                      THE HUMANWISDOM APP COULD REDUCE STRESS AND ADDRESS THE ROOT CAUSE OF CLIMATE CHANGE - EIN Presswire
-                    </h4>
+                    <a href="https://www.einpresswire.com/article/556466418/the-humanwisdom-app-could-reduce-stress-and-address-the-root-cause-of-climate-change" target="_blank">
+                      <h4 class="txt7 underline">
+                        THE HUMANWISDOM APP COULD REDUCE STRESS AND ADDRESS THE ROOT CAUSE OF CLIMATE CHANGE - EIN Presswire
+                      </h4>
+                    </a>
                   </div>
                 </div>
                 <!-- /in the press -->
 
                 <div class="row">
                   <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr class="hr_02">
+                    <hr class="hr_03">
                   </div>
                 </div>
 
@@ -1066,40 +859,5 @@
 <!-- /page content -->
 
 <!-- footer  -->
-<div id="section5">
-  <div class="sidebar-footer ifooter">
-    <div class="row mt61px mb18px">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <h4 class="txt6 tcenter">
-          Let’s connect
-        </h4>
-      </div>
-    </div>
-
-    <div class="row mb65px">
-      <div class="col-md-12 col-sm-12 col-xs-12 center_flex">
-        <div class="col-md-1 col-sm-1 col-xs-1 tcenter">
-          <img src="assets/svgs/icons/linkedin.svg" class="img-responsive">
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-1 tcenter">
-          <img src="assets/svgs/icons/mail.svg" class="img-responsive">
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-1 tcenter">
-          <img src="assets/svgs/icons/call.svg" class="img-responsive">
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-1 tcenter">
-          <img src="assets/svgs/icons/instagram.svg" class="img-responsive">
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <h4 class="txt7 tcenter">
-          Copyright 2021 | Pratik Mangtani
-        </h4>
-      </div>
-    </div>
-  </div>
-</div>
+<app-bottom-nav></app-bottom-nav>
 <!-- /footer -->
