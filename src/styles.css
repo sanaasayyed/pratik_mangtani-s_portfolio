@@ -4919,7 +4919,7 @@ body
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: url(assets/svgs/icons/carousel_right.svg) center right no-repeat !important;
+  /* background: url(assets/svgs/icons/carousel_right.svg) center right no-repeat !important; */
 }
 
 .carousel-control.left
@@ -4927,7 +4927,7 @@ body
   display: flex;
   justify-content: start;
   align-items: center;
-  background: url(assets/svgs/icons/carousel_left.svg) center left no-repeat !important;
+  /* background: url(assets/svgs/icons/carousel_left.svg) center left no-repeat !important; */
 }
 
 .carousel-indicators
