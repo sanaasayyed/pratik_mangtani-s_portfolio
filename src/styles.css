@@ -4919,7 +4919,7 @@ body
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* background: url(assets/svgs/icons/carousel_right.svg) center right no-repeat !important; */
+  background: url(https://humanwisdoms3.s3.eu-west-2.amazonaws.com/pm/assets/svgs/icons/carousel_right.svg) center right no-repeat !important;
 }
 
 .carousel-control.left
@@ -4927,7 +4927,7 @@ body
   display: flex;
   justify-content: start;
   align-items: center;
-  /* background: url(assets/svgs/icons/carousel_left.svg) center left no-repeat !important; */
+  background: url(https://humanwisdoms3.s3.eu-west-2.amazonaws.com/pm/assets/svgs/icons/carousel_left.svg) center left no-repeat !important;
 }
 
 .carousel-indicators
@@ -5610,6 +5610,16 @@ h4
   margin: 50px 0;
 }
 
+.img_mtb_02
+{
+  margin: 23px 0 23px 0;
+}
+
+.img_mtb_03
+{
+  margin: 23px 0 0 0;
+}
+
 .img_mt_02 
 {
   margin-top: 50px;
@@ -5618,6 +5628,16 @@ h4
 .img_mt_03 
 {
   margin: 70px 0 20px 0;
+}
+
+.img_mt_04
+{
+  margin: 23px 0 0 0;
+}
+
+.img_mb_02 
+{
+  margin-bottom: 37px;
 }
 
 .cis_01 
@@ -5734,4 +5754,38 @@ a
   left: 0;
   display: flex;
   align-items: center;
+}
+
+.img_title_01 
+{
+  margin: 23px 0 37px 0;
+}
+
+.mt45px 
+{
+  margin-top: 45px;
+}
+
+.mt100px
+{
+  margin-top: 100px;
+}
+
+.mw55p 
+{
+  max-width: 55%;
+}
+
+.fa_icons_connect
+{
+  font-size: 3rem;
+  color: #827C85
+}
+
+.fa_icons_connect:hover,
+.fa_icons_connect:active,
+.fa_icons_connect:focus,
+.fa_icons_connect:visited
+{
+  color: #FFFFFF;
 }
