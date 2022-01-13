@@ -116,3 +116,26 @@
     line-height: 18px;
     color: #FFFFFF;
 }
+
+.txt9 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    /* Grey */
+    color: #827C85;
+}
+
+.txt10
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 75px;
+    /* White */    
+    color: #FFFFFF;
+}
