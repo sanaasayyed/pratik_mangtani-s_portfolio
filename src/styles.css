@@ -5789,3 +5789,13 @@ a
 {
   color: #FFFFFF;
 }
+
+.carousel-control
+{
+  z-index: 9999;
+}
+
+.navbar-fixed-top .navbar-collapse 
+{
+  max-height: 100%;
+}
