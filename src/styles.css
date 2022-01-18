@@ -5014,9 +5014,10 @@ body
 .cnavtabs>li
 {
   /* width: 25%; */
-  width: 30%;
+  /* width: 30%; */
   margin: 0 10px 0 0;
   text-align: center;
+  padding: 0 1rem;
 }
 
 .cnavtabs>li>a
@@ -5157,7 +5158,8 @@ body {
   text-align: right;
 }
 
-.flex_ai 
+.flex_ai,
+.flex_block
 {
   display: flex;
   align-items: center;
@@ -5620,6 +5622,16 @@ h4
   margin: 23px 0 0 0;
 }
 
+.img_mtb_04
+{
+  margin: 23px 0 10px 0;
+}
+
+.img_mtb_05
+{
+  margin: 45px 0 23px 0;
+}
+
 .img_mt_02 
 {
   margin-top: 50px;
@@ -5638,6 +5650,11 @@ h4
 .img_mb_02 
 {
   margin-bottom: 37px;
+}
+
+.img_mb_03
+{
+  margin-bottom: 30px;
 }
 
 .cis_01 
@@ -5668,6 +5685,7 @@ h4
 .nav.dgrid>li>a
 {
   padding: 5px 0;
+  line-height: 25px;
 }
 
 .onscroll_div_04
@@ -5798,4 +5816,59 @@ a
 .navbar-fixed-top .navbar-collapse 
 {
   max-height: 100%;
+}
+
+.plr30px 
+{
+  padding: 0 30px;
+}
+
+.plr25px 
+{
+  padding: 0 25px;
+}
+
+.pl0px 
+{
+  padding-left: 0px;
+}
+
+.pr0px 
+{
+  padding-right: 0px;
+}
+
+.cpl0px 
+{
+  padding-left: 0px;
+}
+
+.cpr0px 
+{
+  padding-right: 0px;
+}
+
+.txt_white 
+{
+  color: #FFFFFF;
+}
+
+.mtb20px 
+{
+  margin: 20px 0;
+}
+
+/* .bb_carousel .carousel-control.left,
+.bb_carousel .carousel-control.right
+{
+  background-position-x: center !important;
+} */
+
+.section_row_bb
+{
+  border: 1px solid #827C85;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 38px 48px;
+  margin: 40px 10px 0 10px;
 }
