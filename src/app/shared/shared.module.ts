@@ -7,6 +7,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { SideNavAComponent } from './side-nav-a/side-nav-a.component';
 import { SideNavBComponent } from './side-nav-b/side-nav-b.component';
 import { SideNavCComponent } from './side-nav-c/side-nav-c.component';
+import { SideNavDComponent } from './side-nav-d/side-nav-d.component';
 import { BottomNavComponent } from './bottom-nav/bottom-nav.component';
 
 
@@ -17,6 +18,7 @@ import { BottomNavComponent } from './bottom-nav/bottom-nav.component';
     SideNavAComponent,
     SideNavBComponent,
     SideNavCComponent,
+    SideNavDComponent,
     BottomNavComponent
   ],
   imports: [
@@ -29,6 +31,7 @@ import { BottomNavComponent } from './bottom-nav/bottom-nav.component';
     SideNavAComponent,
     SideNavBComponent,
     SideNavCComponent,
+    SideNavDComponent,
     BottomNavComponent
   ]
 })

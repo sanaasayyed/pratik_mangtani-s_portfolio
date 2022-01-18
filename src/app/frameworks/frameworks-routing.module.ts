@@ -21,6 +21,10 @@ const routes: Routes = [
   {
     path: 'voronav',
     loadChildren: () => import('./voronav/voronav.module').then( m => m.VoronavPageModule)
+  },
+  {
+    path: 'beyond-barcode',
+    loadChildren: () => import('./beyond-barcode/beyond-barcode.module').then( m => m.BeyondBarcodePageModule)
   }
   
 ];
