@@ -252,6 +252,50 @@
   {
     font-size: 16px;
   }
+
+  .cpl0px 
+  {
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cpr0px 
+  {
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cmt 
+  {
+    margin: 10px 0 0 0;
+  }
+
+  .cmt_01
+  {
+    margin: 50px 0 0 0;
+  }
+
+  .calign
+  {
+    text-align: center;
+  }
+
+  .flex_jc_center 
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex_block 
+  {
+    display: block;
+  }
+
+  .cp0px
+  {
+    padding: 0;
+  }
+
 }
 
 @media (min-width: 1024px)
