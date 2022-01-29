@@ -5015,9 +5015,10 @@ body
 {
   /* width: 25%; */
   /* width: 30%; */
-  margin: 0 10px 0 0;
+  /* margin: 0 10px 0 0;
+  padding: 0 1rem; */
+  padding: 0 10px;
   text-align: center;
-  padding: 0 1rem;
 }
 
 .cnavtabs>li>a
@@ -5051,6 +5052,7 @@ body
 .cnavtabs>li>a:hover 
 {
   border-bottom: 3px solid #FFFFFF;
+  margin-bottom: -3px;
 }
 
 .cnavtabs>li>a:active 
@@ -5871,4 +5873,72 @@ a
   border-radius: 10px;
   padding: 38px 48px;
   margin: 40px 10px 0 10px;
+}
+
+.fixed_topnav 
+{
+  position: fixed;
+  z-index: 99999;
+}
+
+.pr0pxi 
+{
+  padding-right: 0px !important;
+}
+
+/* back to top button  */
+#back_to_top 
+{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* background: rgb(0, 0, 0); */
+  /* background: rgba(0, 0, 0, 0.7); */
+  background: rgba(255, 196, 85, 1);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#back_to_top i 
+{
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#back_to_top:hover 
+{
+  /* background: rgba(0, 0, 0, 0.9); */
+  background: rgba(255, 196, 85, 1);
+}
+
+#back_to_top:hover i 
+{
+  color: #fff;
+  top: 5px;
+}
+/* /back to top button */
+
+.onscrolltn_active 
+{
+  box-shadow: 0px 1px 2px rgb(130 124 133 / 25%);
 }

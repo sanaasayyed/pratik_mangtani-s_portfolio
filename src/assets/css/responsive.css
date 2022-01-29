@@ -126,6 +126,11 @@
   {
     display: block;
   }
+
+  .rw_tn_02 
+  {
+    padding: 10px 30px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px)
@@ -218,7 +223,8 @@
 {
   .ddesktop 
   {
-    display: block;
+    /* display: block; */
+    display: flex;
   }
 
   .dmobile 
@@ -337,4 +343,63 @@
 .mb26px 
 {
   margin-bottom: 26px;
+}
+
+@media (min-width: 1200px) and (max-width: 2880px)
+{
+  .rw_01,
+  .rw_tn_01 
+  {
+    width: 80%;
+    padding: 0 40px
+  }
+
+  .rw_02
+  {
+    width: 80%;
+  }
+
+  .rw_tn_02 
+  {
+    width: 80%;
+    padding: 0 32px;
+  }
+}
+
+@media (min-width: 2881px)
+{
+  .cnav_padding
+  {
+    padding: 0;
+  }
+
+  .rw_01 
+  {
+    width: 33.3%;
+  }
+
+  .rw_tn_01 
+  {
+    width: 33.3%;
+    padding: 0 32px;
+  }
+
+  .rw_02 
+  {
+    width: 33.3%;
+  }
+
+  .rw_tn_02 
+  {
+    width: 33.3%;
+  }
+}
+
+
+@media (min-width: 3440px)
+{
+  .rw_tn_02 
+  {
+    padding: 0 15px;
+  } 
 }
