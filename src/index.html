@@ -86,5 +86,43 @@
       });
     });
     </script>
+
+    <!-- back to top button  -->
+    <script>
+    $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) 
+      {
+        $('#back_to_top').fadeIn(200);    
+      } 
+      else 
+      {
+        $('#back_to_top').fadeOut(200);   
+      }
+    });
+
+    $(document).on('click', 'a[id^="back_to_top"]', function() 
+    {
+      $('body,html').animate({
+        scrollTop : 0
+      }, 200);
+    });
+    </script>
+    <!-- /back to top button -->
+
+    <!-- onscroll box shadow topnav -->
+    <script>
+    $(window).on("scroll", function()
+    {
+      if($(window).scrollTop() > 5)
+      {
+        $(".onscrolltn").addClass("onscrolltn_active");
+      }
+      else
+      {
+        $(".onscrolltn").removeClass("onscrolltn_active");
+      }
+    });
+    </script>
+    <!-- /onscroll box shadow topnav -->
   </body>
 </html>
