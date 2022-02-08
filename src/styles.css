@@ -5967,7 +5967,11 @@ a
 {
   display: inline-block;
   padding-bottom:0px;
-  background-image: linear-gradient(#F5C26D,#F5B854,#F5AF3C,#F5A623);
+  /* background-image: linear-gradient(#F5C26D,#F5B854,#F5AF3C,#F5A623); */
+  background-image: linear-gradient(rgba(245, 194, 109,0.7),
+                                    rgba(245, 184, 84,0.7),
+                                    rgba(245, 175, 60, 0.7),
+                                    rgba(245, 166, 35,0.7));
   background-position: left bottom; /* OR left bottom*/
   background-size: 100% 7px;
   background-repeat: no-repeat;
