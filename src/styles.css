@@ -5634,6 +5634,11 @@ h4
   margin: 45px 0 23px 0;
 }
 
+.img_mtb_06 
+{
+  margin: 23px 0 15px 0;
+}
+
 .img_mt_02 
 {
   margin-top: 50px;
@@ -5649,6 +5654,16 @@ h4
   margin: 23px 0 0 0;
 }
 
+.img_mt_05
+{
+  margin: 35px 0 0 0;
+}
+
+.img_mt_06
+{
+  margin: 45px 0 0 0;
+}
+
 .img_mb_02 
 {
   margin-bottom: 37px;
@@ -5657,6 +5672,11 @@ h4
 .img_mb_03
 {
   margin-bottom: 30px;
+}
+
+.img_mb_04
+{
+  margin-bottom: 15px;
 }
 
 .cis_01 
@@ -5941,4 +5961,57 @@ a
 .onscrolltn_active 
 {
   box-shadow: 0px 1px 2px rgb(130 124 133 / 25%);
+}
+
+.un 
+{
+  display: inline-block;
+  padding-bottom:0px;
+  background-image: linear-gradient(#F5C26D,#F5B854,#F5AF3C,#F5A623);
+  background-position: left bottom; /* OR left bottom*/
+  background-size: 100% 7px;
+  background-repeat: no-repeat;
+  transition: background-size 0.1s;
+  
+  animation-name: kf_ars;
+  animation-duration:0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function:ease-in-out;
+}
+
+/* 
+.un:hover 
+{
+  background-size: 0% 2px;
+} 
+*/
+
+/* 
+.animate_rotate_scale
+{
+  animation-name: kf_ars;
+  animation-duration:2s;
+  animation-iteration-count: 2;
+  animation-timing-function:ease-in-out;
+} 
+*/
+
+@keyframes kf_ars
+{
+  0%  { background-size: 0% 7px;  }
+  10% { background-size: 10% 7px; }
+  20% { background-size: 20% 7px; }
+  30% { background-size: 30% 7px; }
+  40% { background-size: 40% 7px; }
+  50% { background-size: 50% 7px; }
+  /* 60% { background-size: 60% 7px; }
+  70% { background-size: 70% 7px; }
+  80% { background-size: 80% 7px; }
+  90% { background-size: 90% 7px; }
+  100%{ background-size: 1000% 7px; } */
+}
+
+.dinline 
+{
+  display: inline;
 }
