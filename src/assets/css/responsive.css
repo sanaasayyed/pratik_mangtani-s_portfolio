@@ -131,6 +131,11 @@
   {
     padding: 10px 30px;
   }
+
+  .rp0
+  {
+    padding: 0px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px)
@@ -216,6 +221,14 @@
   .dmobile 
   {
     display: block;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .rp0
+  {
+    padding: 10px;
   }
 }
 
@@ -333,6 +346,12 @@
   {
     height: 60vh;
   } */
+
+  .ctright_01 
+  {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 .mb32px 

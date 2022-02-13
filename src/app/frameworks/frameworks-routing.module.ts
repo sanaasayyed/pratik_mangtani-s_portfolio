@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path: 'beyond-barcode',
     loadChildren: () => import('./beyond-barcode/beyond-barcode.module').then( m => m.BeyondBarcodePageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   }
   
 ];
