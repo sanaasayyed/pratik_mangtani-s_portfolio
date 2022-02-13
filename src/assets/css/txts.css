@@ -8,6 +8,36 @@
     color: #FFFFFF;
 }
 
+.txt1a 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFC455;
+}
+
+.txt1b 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #4491A5;
+}
+
+.txt1c
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
 .txt2 
 {
     font-family: Open Sans;
@@ -107,6 +137,16 @@
     opacity: 0.75; 
 }
 
+.txt7b 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F0AD4E;
+}
+
 .txt8 
 {
     font-family: Open Sans;
@@ -157,5 +197,15 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+    color: #FFFFFF;
+}
+
+.txt13 
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 48px;
     color: #FFFFFF;
 }
