@@ -5196,8 +5196,13 @@ html
 .introduction 
 {
   height: 70vh;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+}
+
+.crow_01 
+{
+  margin-top: calc(15%);
 }
 
 .ci_01,
@@ -6018,4 +6023,44 @@ a
 .dinline 
 {
   display: inline;
+}
+
+.abt_01 
+{
+  margin: 50px 0 80px 0;
+}
+
+.sdtvmw 
+{
+  margin: 30px 0 75px 0;
+}
+
+.sdtvmw_fa
+{
+  background: #827C85;
+  width: 47px;
+  height: 47px;
+  color: black;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sdtvmw_anchor .sdtvmw_fa:hover,
+.sdtvmw_anchor .sdtvmw_fa:focus,
+.sdtvmw_anchor .sdtvmw_fa:active
+{
+  color: white;
+}
+
+.mtb15px 
+{
+  margin: 15px 0;
+}
+
+.mb84px 
+{
+  margin-bottom: 84px;
 }
