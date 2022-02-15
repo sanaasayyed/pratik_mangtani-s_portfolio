@@ -43,6 +43,22 @@
                 "inject": true
               },
               {
+                "input": "node_modules/ng-wizard/themes/ng_wizard.min.css",
+                "inject": true
+              },
+              {
+                "input": "node_modules/ng-wizard/themes/ng_wizard_theme_arrows.min.css",
+                "inject": true
+              },
+              {
+                "input": "node_modules/ng-wizard/themes/ng_wizard_theme_circles.min.css",
+                "inject": true
+              },
+              {
+                "input": "node_modules/ng-wizard/themes/ng_wizard_theme_dots.min.css",
+                "inject": true
+              },
+              {
                 "input": "src/styles.css",
                 "inject": true
               },
@@ -50,6 +66,10 @@
                 "input": "src/assets/css/backgrounds.css",
                 "inject": true
               },                 
+              {
+                "input": "node_modules/propellerkit-range-slider/node_modules/nouislider/distribute/nouislider.min.css",
+                "inject": true
+              },
               {
                 "input": "src/assets/css/txts.css",
                 "inject": true
@@ -62,7 +82,10 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/popper.js/dist/umd/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/propellerkit-range-slider/node_modules/nouislider/distribute/nouislider.js",
+              "node_modules/propellerkit-range-slider/node_modules/wnumb/wNumb.js",
+              "node_modules/html2canvas/dist/html2canvas.min.js"
             ]
           },
           "configurations": {
